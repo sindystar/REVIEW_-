@@ -1,0 +1,39 @@
+@charset 'utf-8';
+@import 'reset.css';
+
+/* header 영역 */
+
+#header{
+  width: 100%; border-bottom: 1px solid #ddd;
+}
+#header .inner{
+  width: 1180px; height: 120px; margin: 0 auto; position: relative;
+}
+#header .inner>h1{
+  position: absolute; left: 0px; bottom: 15px;
+}
+#header .inner>h1>a{
+  font: bold 24px/1 'arial'; color:#444;
+}
+#header .inner #gnb{
+  position: absolute; right: 0px; bottom: 0px;
+}
+#header .inner #gnb li{
+  float: left;
+}
+#header .inner #gnb li a{
+  display: block; padding: 14px 40px;
+  font: bold 14px/1 'arial'; color: #777;
+}
+#header .inner #gnb li a:hover{
+  background-color: #555; color: #fff;
+}
+#header .inner .util{
+  position: absolute; top: 20px; right: 40px;
+}
+#header .inner .util li{
+  float: left; margin-left: 20px;
+}
+#header .inner .util li a{
+  font: 12px/1 'arial'; color: #999;
+}
