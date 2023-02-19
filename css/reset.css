@@ -7,3 +7,10 @@ ul,ol,li{
 a{
   text-decoration: none;
 }
+
+.hidden {
+  position: absolute; top:-9999999px; opacity: 0;
+}
+.wrap::after{
+  content: ''; display: block; clear: both;
+}
